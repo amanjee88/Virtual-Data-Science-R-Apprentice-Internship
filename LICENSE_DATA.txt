@@ -1,0 +1,3 @@
+Dataset attribution: Aeberhard, S. & Forina, M. (1992). Wine. UCI Machine Learning Repository. DOI: https://doi.org/10.24432/C5PC7J. The UCI dataset page identifies the dataset and provides its download/citation information. Please retain the attribution when redistributing the dataset.
+
+Project code and report text: prepared for this internship task. Dataset terms are governed by the source repository's stated license and attribution guidance.

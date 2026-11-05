@@ -1,0 +1,9 @@
+EXECUTION TRANSPARENCY NOTE
+
+The current document-authoring workspace did not have an R runtime installed, so the R scripts in src/ have been prepared but could not be executed in this workspace. The data checks and embedded figures were generated directly from the packaged public dataset. The model metric tables and ROC/confusion-matrix figures in outputs/ and reports/figures/ are explicitly labelled reference benchmarks from equivalent scikit-learn implementations (LDA and multinomial logistic regression) on the same fixed stratified split. They are not represented as R execution results.
+
+To produce the R-native outputs on a computer with R installed, open a terminal in the project root and run:
+  install.packages(c('MASS','nnet'))  # if not already installed
+  Rscript src/run_all.R
+
+Then compare outputs/model_metrics_R.csv with outputs/metrics_reference_python.csv. Small differences may occur because the R and Python implementations use different optimization and numerical routines. Replace the reference performance values in the report with the R-native metrics if your evaluator requires strict R-executed results.

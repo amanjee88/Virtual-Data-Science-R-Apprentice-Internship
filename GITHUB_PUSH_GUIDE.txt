@@ -1,0 +1,20 @@
+PUBLISH THIS PROJECT TO GITHUB (WINDOWS)
+
+1. Download Virtual_Data_Science_R_Apprentice_Project_Bundle.zip and extract it.
+2. Open the extracted r_apprentice_project folder.
+3. On GitHub, create a NEW repository named:
+   Virtual-Data-Science-R-Apprentice-Internship
+4. Choose Public if the internship evaluator needs to access it.
+5. Leave "Add a README", .gitignore, and license UNCHECKED. The project already contains these files. This makes the remote repository empty.
+6. In the r_apprentice_project folder, right-click an empty area and choose "Open in Terminal" (or open PowerShell and cd to this folder).
+7. Run:
+   powershell -ExecutionPolicy Bypass -File .\PUSH_TO_GITHUB.ps1
+8. Paste the HTTPS repository URL when prompted. The script initializes Git, stages the project, creates a commit, sets origin, and pushes the main branch.
+9. Git Credential Manager may open a browser for GitHub sign-in. Complete sign-in there. Do NOT paste a password or personal access token into this chat.
+10. After success, open the repository page in your browser and copy its URL into the YuvaIntern GitHub project URL field.
+
+If Git is not installed, install Git for Windows from https://git-scm.com/download/win, reopen PowerShell, and run the script again.
+
+If GitHub rejects the push because the remote already contains a commit, use a fresh empty GitHub repository. Do not force-push over existing work.
+
+The project documentation explicitly notes that R scripts are supplied for reproducible execution but were not run in the authoring workspace. The reference Python model outputs are labeled as such. Do not claim R-native execution until you run src/run_all.R with R installed and review the generated outputs.

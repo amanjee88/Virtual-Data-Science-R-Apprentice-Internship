@@ -154,7 +154,6 @@ r_apprentice_project/
 ├── ENVIRONMENT_NOTE.txt
 ├── LICENSE_DATA.txt
 ├── README.md
-└── submission_descriptions.txt
 ```
 
 The R scripts create additional files with `_R` suffixes and R-native model outputs when run. Those generated files may not appear in the repository until the workflow has been executed locally.

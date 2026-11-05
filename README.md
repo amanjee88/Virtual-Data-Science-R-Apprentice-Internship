@@ -118,6 +118,7 @@ Source file: `outputs/metrics_reference_python.csv`. The associated reference co
 
 ```text
 r_apprentice_project/
+│
 ├── data/
 │   ├── raw/
 │   │   └── wine_recognition_raw.csv
@@ -129,20 +130,34 @@ r_apprentice_project/
 │       ├── outlier_flags.csv
 │       ├── summary_statistics.csv
 │       └── class_means.csv
+│
 ├── deliverables/
 │   ├── Week_1_Project_Plan_and_Strategy.docx
 │   ├── Week_2_Exploratory_Data_Analysis.docx
 │   ├── Week_3_Data_Wrangling_and_Preprocessing.docx
 │   ├── Week_4_Model_Building_and_Predictive_Analysis.docx
 │   ├── Week_5_Final_Project_Report.docx
-│   ├── submission_descriptions.txt
+│   └── submission_descriptions.txt
+│
 ├── outputs/
 │   ├── metrics_reference_python.csv
 │   ├── predictions_reference_python.csv
 │   ├── confusion_lda.csv
 │   └── confusion_multinomial.csv
+│
 ├── reports/
 │   └── figures/
+│       ├── 00_project_roadmap.png
+│       ├── 01_class_distribution.png
+│       ├── 02_alcohol_by_cultivar.png
+│       ├── 03_correlation_heatmap.png
+│       ├── 04_phenols_scatter.png
+│       ├── 05_color_intensity_boxplot.png
+│       ├── 06_roc_lda.png
+│       ├── 06_roc_multinomial.png
+│       ├── 07_confusion_lda.png
+│       └── 07_confusion_multinomial.png
+│
 ├── src/
 │   ├── 01_clean_data.R
 │   ├── 02_eda.R
@@ -150,9 +165,11 @@ r_apprentice_project/
 │   ├── 04_modeling.R
 │   ├── 05_final_summary.R
 │   └── run_all.R
+│
+├── .gitignore
 ├── ENVIRONMENT_NOTE.txt
 ├── LICENSE_DATA.txt
-├── README.md
+└── README.md
 ```
 
 The R scripts create additional files with `_R` suffixes and R-native model outputs when run. Those generated files may not appear in the repository until the workflow has been executed locally.

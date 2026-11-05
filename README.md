@@ -136,7 +136,6 @@ r_apprentice_project/
 │   ├── Week_4_Model_Building_and_Predictive_Analysis.docx
 │   ├── Week_5_Final_Project_Report.docx
 │   ├── submission_descriptions.txt
-│   └── README_DELIVERABLES.txt
 ├── outputs/
 │   ├── metrics_reference_python.csv
 │   ├── predictions_reference_python.csv
